@@ -1,3 +1,4 @@
+<html>
 IME (http://www.ntnu.edu/ime)
 	Studies (http://www.ntnu.edu/ime/studies)
 	Students (http://www.ntnu.edu/ime/student)
