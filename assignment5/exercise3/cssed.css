@@ -1,0 +1,59 @@
+header {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-align: center;
+	padding-bottom: 30px;
+	max-height: 50px;
+	margin: 0px;
+	font-family: arial;
+
+}
+header#articleHeader{
+	background-color: #FFFFFF;
+	color: #000000;
+	font-size: 240%;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 30px;	
+	padding-bottom: 0px;
+}
+body {
+	margin: 0px;
+}
+#main {
+	width: 31%;
+	margin: auto;
+}
+h1 {
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+}
+#subTitle{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+	font-size: 90%;
+}
+#leadParagraph{
+	font-size: 109%;
+}
+#byline{
+	font-size: 80%;
+}
+#bodyText{ 
+	
+}
+articleTitle {
+	font-weight: bold;
+	font-size: 110%;
+}
+
+a{
+	text-decoration: none;
+	color: #000000;
+}
+img{
+	border-radius: 10px;
+}
