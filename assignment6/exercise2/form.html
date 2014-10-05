@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="styles.css">
+		<title>Form</title>
+	</head>
+	<body>
+		<form action="http://www.idi.ntnu.no/~michailg/IT2805/form.php" method="post" >
+			<div id="form">
+			<label for="name">Name:</label>
+			<input type="text" name="name" required="required"><br>
+			<label for="email">Email:</label>
+			<input type="text" name="email" required="required"><br>
+			<label for="adress">Adress: </label>				
+			<input type="text" name="address"><br>
+			<label for="phone">Phone number:</label>
+			<input type="text" name="phone"><br>
+			<label for="year">Student type:</label>			
+			<select name = "year" required="required">
+					<option value="1">1st year</option>
+					<option value="2">2nd year</option>
+					<option value="3">3rd year</option>
+					<option value="4">4th year</option>
+				</select><br>
+			<label for="startDate">Expected start date:</label>			
+			<input type="date" name="startDate" required="required"><br>
+			<label for="classes[]">Interesting classes:</label><br>
+			<div id="courses">
+				<input type="checkbox" name="classes[]" value="ITX1001">ITX1001: HTML Basics<br>
+				<input type="checkbox" name="classes[]" value="ITX1002">ITX1002: URLs and Site Structures<br>
+				<input type="checkbox" name="classes[]" value="ITX2001">ITX2001: Introduction to Cascading Style Sheets (CSS)<br>
+				<input type="checkbox" name="classes[]" value="ITX2002">ITX2002: CSS Properties and Applications<br>
+				<input type="checkbox" name="classes[]" value="ABC1001">ABC1001: Working with Multimedia on the Web<br>
+				<input type="checkbox" name="classes[]" value="JSX1000">JSX1000: Introduction to JavaScript<br>
+				<input type="checkbox" name="classes[]" value="JSX1040">JSX1040: JavaScript: DOM<br>
+				<input type="checkbox" name="classes[]" value="XML1000">XML1000: XML: Formatting Namespace Trees<br>
+			</div>
+				<label for="comments">Requests and comments:</label>
+				<br>
+				<textarea rows="4" cols="50" name="comments" required="required"></textarea>
+				<br>
+				<input type="submit" value="Submit">
+			</div>
+		</form>
+	</body>
+</html>

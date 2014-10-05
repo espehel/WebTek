@@ -1,0 +1,9 @@
+#courses{
+	padding-left: 30px;
+}
+input:invalid{
+	border:1px solid red;
+}
+textarea:invalid{;
+	border:1px solid red;
+}
