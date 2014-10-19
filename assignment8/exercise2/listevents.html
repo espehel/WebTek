@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>On load</title>
+<script>
+window.addEventListener("load", function(event){
+	var list = ["a","b","c","d","e","f","g","h","i","j"];
+	document.getElementById("outputLetter").innerHTML = list[Math.floor(Math.random()*list.length)];
+});
+</script>
+</head>
+<body>
+<output id="outputLetter">
+</output>
+</body>
+</html>
