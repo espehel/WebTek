@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<script>
+		window.onload = function(){
+			var canvas = document.getElementById('canvas');
+			if (canvas && canvas.getContext) {
+				var ctx = canvas.getContext("2d");
+				if (ctx) {
+
+					ctx.strokeStyle = "blue";
+					ctx.lineWidth = 5;
+					ctx.strokeRect(40,40,69,69);
+
+					ctx.strokeStyle = "red";
+					ctx.lineWidth = 5;
+					ctx.beginPath();
+					ctx.arc(75,75,50,0,Math.PI*2,true);
+					ctx.stroke();
+
+		}}}
+		</script>
+    </head>
+    <body>
+		<canvas id="canvas" width="400" height="400">
+		Your browser does not support the HTML5 canvas tag. 
+		</canvas>
+    </body>
+</html>
