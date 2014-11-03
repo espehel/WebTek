@@ -25,23 +25,7 @@
 
 		}}};
 		img.src = 'doge.jpg';
-	};
-	function blank() { //fills the canvas
-		context.fillStyle = "#000000";
-		context.fillRect(0,0,context.canvas.width, context.canvas.height);
-}
-//animation function
-function anim() { //every 30 milliseconds this function will be called
-if (rectX < context.canvas.width) {
-//if the X position of the rectangle is less than the width of the canvas 
-blank(); //draw tha background
-rectX += 5; // move the rectangle by 5 pixels
-context.fillStyle = "yellow"; //and fill it again
-context.strokeStyle = "red"; //stroke it again
-context.lineWidth = 3; context.fillRect(rectX,rectY,rectW,rectW); //fill rectangle 
-context.strokeRect(rectX,rectY,rectW,rectW); //stroke rect.
-} //if the rectangle has moved beyond the canvas 
-else rectX=-rectW; //start again from the beginning		
+		};
 		</script>
     </head>
     <body>
